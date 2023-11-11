@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<scenarios>
+    <!-- scenario name MUST contain 'left' or 'right', defines whether car comes from left or right lane-->
+    <scenario name="_4_1" type="_4" town="Town07">
+        <ego_vehicle x="74.1" y="57.0" z="0.5" yaw="-40" model="vehicle.tesla.cybertruck" />
+        <other_actor x="85.3" y="39.5" z="0.5" yaw="-60" model="vehicle.tesla.model3" />
+        <weather cloudiness="0" precipitation="0" precipitation_deposits="0" wind_intensity="0" sun_azimuth_angle="0" sun_altitude_angle="75" />
+    </scenario>
+</scenarios>
